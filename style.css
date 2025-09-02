@@ -7,8 +7,8 @@
     background: -webkit-linear-gradient(#000, rgba(255, 0, 0, 0.399));
     background-position: center;
     background-size: auto;
-    width: 100%;
-    height: 200vh;
+    max-width: auto;
+    min-height: 100vh;
 }
 .navbar {
     width: 150px;
@@ -73,8 +73,8 @@ position: absolute;
     color: #ffa500;
 }
 .container {
-    width: 350px;
-    height: 400px;
+    width:400px;
+    min-height: 400px;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ position: absolute;
     outline: 3px solid #fff;
     border-radius: 10px;
     border: #fff;
-    top: 600px;
+    top: 200px;
     left: 1000px;
     font-family: 'Times New Roman', Times, serif;
 
@@ -98,7 +98,6 @@ h2 {
     text-decoration: wavy;
     text-shadow: #fff;
     
-
 }
 
 .input-box {
@@ -111,6 +110,7 @@ h2 {
 .input-box :hover {
     border-color: aquamarine;
 }
+
 .input-box :focus {
     border-color: aqua;
 }
@@ -174,7 +174,7 @@ button {
     color: #fff;
 }
 .welcome {
-    top: 80%;
+    top: 27%;
     color: antiquewhite;
     position: absolute;
     left: 2%;
@@ -197,7 +197,7 @@ button {
     position: absolute;
     justify-content: center;
     align-items: center;
-    top: 100%;
+    top: 50%;
     left: 2%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 28px;
