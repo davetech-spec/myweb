@@ -11,16 +11,14 @@
     min-height: 100vh;
 }
 .navbar {
-    width: 150px;
-    height: 30px;
+    max-width: 150px;
+    min-height: 30px;
     padding-left: 10px;
-    float: left;
 
 }
 .icon {
     width: 0;
     height: 0;
-    float: left;
     padding-left: 10px;
 
 }
@@ -31,7 +29,6 @@
     font-family: 'Times New Roman', Times, serif;
     color: orange;
     font-size: 35px;
-    padding-left: 10px;
     margin-top: 20px;
     
 }
@@ -41,14 +38,11 @@ color: #fff;
 position: absolute;
 }
 .menu {
-    float: left;
+    max-width: auto;
     
 }
 .menu ul {
-    float:left;
     display: flex;
-    justify-content: center;
-    align-items: center;
     
 }
 .menu ul li {
@@ -56,7 +50,7 @@ position: absolute;
     margin-left: 200px;
     margin-top: 32px;
     padding-left: 150px;
-    width: 0px;
+    max-width: 0px;
 
 }
 .menu ul li a {
@@ -192,8 +186,8 @@ button {
 }
 .texts {
     color: #fff;
-    width: 700px;
-    height: 20px;
+    max-width: 700px;
+    min-height: 20px;
     position: absolute;
     justify-content: center;
     align-items: center;
